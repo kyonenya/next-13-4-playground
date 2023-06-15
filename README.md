@@ -1,15 +1,13 @@
 # Next 13.4 playground
 
-## 許されたライブラリたち
-
-- [n3r4zzurr0/svg-spinners: A collection of 24 x 24 dp SVG spinners! (CSS & SMIL)](https://github.com/n3r4zzurr0/svg-spinners)
-  - ゴミ：[davidhu2000/react-spinners: A collection of loading spinner components for react](https://github.com/davidhu2000/react-spinners)
-
 ## Zero-runtime CSS
 
+tailwind には勝てなかったよ……
+
+- [n3r4zzurr0/svg-spinners: A collection of 24 x 24 dp SVG spinners! (CSS & SMIL)](https://github.com/n3r4zzurr0/svg-spinners)
+  - スピナーは生の svg を使うのがいい。アニメーションも svg に書いてある
 - Chakra UI の Icon すらも emotion が入り込んでて使えないのでリプレースする必要あり
   - [React Icons](https://react-icons.github.io/react-icons/) あたりでいいかね
-- tailwind には勝てなかったよ……
 - [poteboy/kuma-ui: 🐻‍❄️ zero-runtime CSS-in-JS with type-safe utility props](https://github.com/poteboy/kuma-ui)
   - SWC では動かない、Babel ベースで AST 解析してる：[Twitter](https://twitter.com/_poteboy_/status/1665736293429690369)
 - UI ライブラリは全滅だな……低レベルの UI ライブラリですら RSC 下では動作しない
@@ -34,5 +32,10 @@
 - [Turbopack](https://nextjs.org/docs/architecture/turbopack): 現状では開発環境でのみ使用できます(next dev --turbo)が、将来の Next.js のバージョンでは本番環境でも使用できるようになる(next build --turbo)予定のようです。
   [Next.js 13.4 まとめ](<https://zenn.dev/a_da_chi/articles/758f77406cda60#turbopack(%E3%83%99%E3%83%BC%E3%82%BF%E7%89%88)>)
 - [Blog - Next.js 13.4 | Next.js](https://nextjs.org/blog/next-13-4)
+
+## Node.js
+
+- [Configuration – CodeSandbox](https://codesandbox.io/docs/learn/sandboxes/configuration#sandbox-configuration)
+  - [codesandbox-template/sandbox.config.json at main · blitz-js/codesandbox-template · GitHub](https://github.com/blitz-js/codesandbox-template/blob/main/sandbox.config.json)
 - [fnm（Fast Node Manager）の導入方法](https://zenn.dev/kazuma_r5/articles/cd5eaf3d8b5b9f)
   - `.node-version` ファイル
