@@ -1,5 +1,10 @@
 # Next 13.4 playground
 
+## 許されたライブラリたち
+
+- [n3r4zzurr0/svg-spinners: A collection of 24 x 24 dp SVG spinners! (CSS & SMIL)](https://github.com/n3r4zzurr0/svg-spinners)
+  - ゴミ：[davidhu2000/react-spinners: A collection of loading spinner components for react](https://github.com/davidhu2000/react-spinners)
+
 ## Zero-runtime CSS
 
 - Chakra UI の Icon すらも emotion が入り込んでて使えないのでリプレースする必要あり
@@ -19,6 +24,11 @@
 
 ## RSC (React Server Component)
 
+- [Next.js 13 app directory で記事投稿サイトを作ってみよう](https://zenn.dev/azukiazusa/articles/next-js-app-dir-tutorial)
+  - Chakra UI ガッツリ使ってて草なんだけどそれだけに分かりやすい
+- [Next.js で React Server Components を試してみた](https://zenn.dev/forcia_tech/articles/202305_next_js_rsc)
+  - PostList を page.tsx で Suspense で囲ってるから layout.tsx は要らない
+    - 囲わないと page.tsx から漏れ出てくるから loading.tsx でキャッチする
 - [Next.js 13 の React Server Components(RSC) とデータフェッチ](https://zenn.dev/tfutada/articles/36ad71ab598019)
 - [Next.js 13 の app ディレクトリの基礎(Layout, Suspense, Data Fetching...)](https://reffect.co.jp/react/next-js-13-app)
 - [Turbopack](https://nextjs.org/docs/architecture/turbopack): 現状では開発環境でのみ使用できます(next dev --turbo)が、将来の Next.js のバージョンでは本番環境でも使用できるようになる(next build --turbo)予定のようです。
