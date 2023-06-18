@@ -44,8 +44,10 @@ tailwind には勝てなかったよ……
   [Next.js 13.4 まとめ](<https://zenn.dev/a_da_chi/articles/758f77406cda60#turbopack(%E3%83%99%E3%83%BC%E3%82%BF%E7%89%88)>)
 - [Blog - Next.js 13.4 | Next.js](https://nextjs.org/blog/next-13-4)
 
-## Node.js
+## その他
 
+- `@/app/Login` みたいなエイリアスをやると名前変更したとき VSCode が自動置換してくれなくなる
+  - まあプロジェクト全体で一意だから全体検索かければいいという話ではある
 - [Configuration – CodeSandbox](https://codesandbox.io/docs/learn/sandboxes/configuration#sandbox-configuration)
   - [codesandbox-template/sandbox.config.json at main · blitz-js/codesandbox-template · GitHub](https://github.com/blitz-js/codesandbox-template/blob/main/sandbox.config.json)
 - [fnm（Fast Node Manager）の導入方法](https://zenn.dev/kazuma_r5/articles/cd5eaf3d8b5b9f)
