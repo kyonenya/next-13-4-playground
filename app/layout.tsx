@@ -1,6 +1,6 @@
 import { Header } from "./_components/Header";
 import "./globals.css";
-import Login from "./login";
+import Login from "./Login";
 
 export const metadata = {
   title: "Create Next App",

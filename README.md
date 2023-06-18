@@ -8,6 +8,8 @@
   - error Error: Server actions ("use server") are not yet supported in Turbopack
 - [【PHP と一緒だなんて言わないで】Next.js@13.4 による Zero API Web Application](https://zenn.dev/chot/articles/f13ac46a1d3f8e#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
 - [Data Fetching: Server Actions | Next.js](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions)
+- "Module not found: Can't resolve 'encoding' in '/home/takashi/next-13-4-playground/node_modules/node-fetch/lib'"は気にしなくていいらしい
+  - [typescript - Can't Resolve "encoding" Module Error While Using Nextjs-13 + Supabase - Stack Overflow](https://stackoverflow.com/questions/75438048/cant-resolve-encoding-module-error-while-using-nextjs-13-supabase)
 
 ## Zero-runtime CSS
 

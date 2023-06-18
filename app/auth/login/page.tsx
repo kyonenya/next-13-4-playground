@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { redirect } from "next/navigation";
-import Login from "@/app/login";
+import Login from "@/app/Login";
 
 /**
  * ログインページ
