@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Header } from "./_components/Header";
 import "./globals.css";
 import Login from "./Login";
@@ -17,6 +18,11 @@ export default function RootLayout({
       <body>
         <Header>
           <Login />
+          <div>
+            <a href="/">［/index］</a>
+            <a href="/protected">［/protected］</a>
+            <a href="/auth/login">［/auth/login］</a>
+          </div>
         </Header>
         {children}
       </body>
