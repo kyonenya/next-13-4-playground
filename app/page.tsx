@@ -1,18 +1,7 @@
-import { Suspense } from "react";
-import { PostList } from "./_components/PostList";
+import { cookies } from "next/headers";
+import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 
-export default function Home() {
-  return (
-    <main>
-      <div>
-        <h1>App Sample</h1>
-      </div>
-      <div>
-        {/* ここでキャッチしなければpage.tsxを漏れ出てloading.tsxでキャッチされる */}
-        {/* <Suspense fallback={<div>Loading...</div>}> */}
-        <PostList />
-        {/* </Suspense> */}
-      </div>
-    </main>
-  );
+export default async function ServerComponent() {
+  const supabase = createServerComponentClient({ cookies });
+  return <pre>{JSON.stringify(await supabase.auth.getUser(), null, 2)}</pre>;
 }

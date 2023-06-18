@@ -1,5 +1,14 @@
 # Next 13.4 playground
 
+## Server Actions × Supabase Auth
+
+- [nextjs-supabase-auth-tutorial/app/auth/login/page.tsx at master · haruyasu/nextjs-supabase-auth-tutorial · GitHub](https://github.com/haruyasu/nextjs-supabase-auth-tutorial/blob/master/app/auth/login/page.tsx)
+- [Supabase Auth with the Next.js App Router | Supabase Docs](https://supabase.com/docs/guides/auth/auth-helpers/nextjs)
+- Turbopack は未対応
+  - error Error: Server actions ("use server") are not yet supported in Turbopack
+- [【PHP と一緒だなんて言わないで】Next.js@13.4 による Zero API Web Application](https://zenn.dev/chot/articles/f13ac46a1d3f8e#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
+- [Data Fetching: Server Actions | Next.js](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions)
+
 ## Zero-runtime CSS
 
 tailwind には勝てなかったよ……
